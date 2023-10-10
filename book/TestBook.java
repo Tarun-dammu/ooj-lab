@@ -28,6 +28,8 @@ class Book{
 		num_pages = sc.nextInt();
 		sc.nextLine();
 		System.out.println();
+		System.out.println("Hello");
+		
 	}
 	public String toString() {
 		return("Name of Book : "+this.book_name+"\nAuthor : "+this.book_author+"\nPrice : "+this.price+"\nNumber of Pages: "+this.num_pages);
